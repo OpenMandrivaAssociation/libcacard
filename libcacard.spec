@@ -62,3 +62,10 @@ find %buildroot -name '*.la' | xargs rm -f
 
 %files tools
 %{_bindir}/vscclient
+
+
+%changelog
+* Wed Feb 08 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.1.2-1
++ Revision: 772212
+- imported package libcacard
+
