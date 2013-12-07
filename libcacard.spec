@@ -5,7 +5,7 @@
 Summary:	Common Access Card (CAC) Emulation
 Name:		libcacard
 Version:	0.1.2
-Release:	3
+Release:	4
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		http://www.spice-space.org/download
