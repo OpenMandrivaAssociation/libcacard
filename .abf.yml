@@ -1,4 +1,2 @@
-removed_sources:
-  libcacard-0.1.2.tar.bz2: 1448713eb9bc3d4454ae19d00f243b4ab9a22791
 sources:
-  libcacard-2.6.1.tar.xz: bceec1a1da4ed95f08bc1307e3a92020fb86f300
+  libcacard-2.7.0.tar.xz: 85b85d33e5f2c68f3a792f09cae21de64edc91c0
