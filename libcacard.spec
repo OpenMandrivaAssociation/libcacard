@@ -4,7 +4,7 @@
 
 Summary:	Common Access Card (CAC) Emulation
 Name:		libcacard
-Version:	2.7.0
+Version:	2.8.1
 Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
@@ -36,11 +36,11 @@ CAC emulation development files.
 %setup -q
 
 %build
-%configure2_5x --disable-static
-%make
+%configure --disable-static
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files -n %{libname}
 %doc COPYING README.md
