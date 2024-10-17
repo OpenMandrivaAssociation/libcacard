@@ -8,7 +8,7 @@ Version:	2.8.1
 Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
-Url:		http://www.spice-space.org/download
+Url:		https://www.spice-space.org/download
 Source0:	http://www.spice-space.org/download/libcacard/libcacard-%{version}.tar.xz
 BuildRequires:	pkgconfig(nss) >= 3.12.8
 BuildRequires:	pkgconfig(glib-2.0)
