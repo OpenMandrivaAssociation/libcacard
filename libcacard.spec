@@ -10,6 +10,11 @@ Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://www.spice-space.org/download
 Source0:	http://www.spice-space.org/download/libcacard/libcacard-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(nss) >= 3.12.8
 BuildRequires:	pkgconfig(glib-2.0)
 
